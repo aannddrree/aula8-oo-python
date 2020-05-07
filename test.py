@@ -2,6 +2,7 @@ from views import Carro, Motor
 import pymongo
 import jsons
 
+#banco de dados
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["dbcarros"]
 mycol = mydb["carro"]
